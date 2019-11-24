@@ -8,6 +8,17 @@ verify_ssl = true
 [packages]
 flask = "*"
 ipython = "*"
+flask-login = "*"
+flask-openid = "*"
+flask-mail = "*"
+flask-sqlalchemy = "*"
+sqlalchemy-migrate = "*"
+flask-whooshalchemy = "*"
+flask-wtf = "*"
+flask-babel = "*"
+guess-language = "*"
+flipflop = "*"
+coverage = "*"
 
 [requires]
 python_version = "3.6"
