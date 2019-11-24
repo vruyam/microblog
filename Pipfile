@@ -19,6 +19,7 @@ flask-babel = "*"
 guess-language = "*"
 flipflop = "*"
 coverage = "*"
+flask-migrate = "*"
 
 [requires]
 python_version = "3.6"
