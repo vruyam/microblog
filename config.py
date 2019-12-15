@@ -13,6 +13,7 @@ class Config(object):
 	MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
 	ADMINS = ['mayur.verlekar@parinati.in',]
 	POSTS_PER_PAGE = 3
+	LANGUAGES = ['en', 'es']
 
 # (venv) $ export MAIL_SERVER=smtp.googlemail.com
 # (venv) $ export MAIL_PORT=587
@@ -39,3 +40,5 @@ class Config(object):
 # "7 hours ago"
 # moment('2017-09-28T21:45:23Z').calendar()
 # "Today at 2:45 PM"
+
+# babel https://github.com/miguelgrinberg/microblog/tree/v0.13/app

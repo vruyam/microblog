@@ -5,7 +5,7 @@ from flask_login import UserMixin
 from hashlib import md5
 from time import time
 import jwt
-from app import app
+# from app import app
 
 @login.user_loader
 def load_user(id):
