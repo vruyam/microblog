@@ -20,6 +20,7 @@ guess-language = "*"
 flipflop = "*"
 coverage = "*"
 flask-migrate = "*"
+pyjwt = "*"
 
 [requires]
 python_version = "3.6"
