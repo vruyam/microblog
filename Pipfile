@@ -21,6 +21,7 @@ flipflop = "*"
 coverage = "*"
 flask-migrate = "*"
 pyjwt = "*"
+flask-bootstrap = "*"
 
 [requires]
 python_version = "3.6"
